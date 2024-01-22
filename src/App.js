@@ -8,7 +8,7 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
-
+import Courses from './components/Courses'
 function App() {
   return (
 
@@ -18,6 +18,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/courses' element={<Courses />} />
       </Routes>
     </Router>
 

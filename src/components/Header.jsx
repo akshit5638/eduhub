@@ -1,5 +1,6 @@
 import React from 'react'
 import { ColorModeSwitcher } from '../ColorModeSwitcher'
+import { Link } from 'react-router-dom';
 import {
     Drawer,
     DrawerBody,
@@ -13,7 +14,7 @@ import {
     useDisclosure,
     VStack,
     HStack,
-    Link,
+
     textDecoration
 } from '@chakra-ui/react';
 
@@ -37,6 +38,7 @@ const Header = () => {
 
                     <DrawerBody>
                         <VStack alignItems={'flex-start'}>
+
                             <LinkButton onClose={onClose} url="/" title="Home" />
                             <LinkButton onClose={onClose} url="/courses" title="All Courses" />
                             <LinkButton onClose={onClose} url="/request" title="Buy Course" />
