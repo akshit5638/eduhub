@@ -24,18 +24,7 @@ const Home = () => {
                     objectFit="contain"
                 />
             </Stack>
-            <Box w={'full'} bgColor={'black'} h={'20vh'}>
-                <VStack h={'full'} p={'4'} justifyContent={'space-around'}>
-                    <Heading color={'yellow'}>OUR PLATFORMS</Heading>
-                    <HStack className='brands' fontSize={'30'} color={'white'} w={'full'} justifyContent={'space-around'}>
-                        <CgGoogle />
-                        <CgYoutube />
-                        <SiCoursera />
-                        <SiUdemy />
-                        <DiAws />
-                    </HStack>
-                </VStack>
-            </Box>
+
 
         </>
     )
